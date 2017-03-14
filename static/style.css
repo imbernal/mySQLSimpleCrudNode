@@ -1,0 +1,29 @@
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.trash{
+  padding-left: 14px;
+  color: red;
+}
+
+.fa{
+  cursor: pointer;
+}
+
+.table{
+  width: 80% !important;
+}
+
+form{
+  width: 60%;
+  margin-top: 8%;
+}
+
+h3{
+  text-align: center;
+}
