@@ -50,7 +50,7 @@ app.post("/save" , function(req,res){
     Description: req.body.description,
     Status: req.body.status
   }
-  
+
   if (req.body.id == ""){
     connection.query("INSERT INTO sql9163700.simplecrud set ? " , task , function(err,rows){
 
@@ -84,6 +84,4 @@ app.get("/delete/:id" , function(req, res){
   res.send().status(200);
 });
 
-app.listen(2998, ()=>{
-  console.log("Connected");
-});
+app.listen(80);
